@@ -272,7 +272,7 @@ static const void *kStatusBarStyle = &kStatusBarStyle;
     }
 }
 
-- (void) preferredStatusBarStyle:(NSString*)statusBarStyle
+- (void) setStatusBarStyle:(NSString*)statusBarStyle
 {
     // default, lightContent, blackTranslucent, blackOpaque
     NSString* lcStatusBarStyle = [statusBarStyle lowercaseString];
